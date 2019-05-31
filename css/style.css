@@ -1,0 +1,17 @@
+
+
+.logo-navbar {
+    margin-right: -100px 
+} 
+
+.navbar-instagram , .navbar-facebook , .navbar-twitter {
+    font-size: 3rem;
+}
+
+.button-modal-regist {
+    color: #000;
+}
+.button-modal-regist:hover {
+    text-decoration: none;
+    color: #fff;
+}
