@@ -10,6 +10,9 @@ p {
 	font-size: 1rem;
 }
 
+
+/*Seccion Navbar y Header*/
+
 .logo-navbar {
     margin-right: -100px 
 } 
@@ -25,6 +28,9 @@ p {
     text-decoration: none;
     color: #fff;
 }
+
+
+/*Seccion Footer*/
 
 .links-footer {
 	font-size: 1.7rem;
