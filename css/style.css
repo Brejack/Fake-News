@@ -6,6 +6,9 @@ a:hover {
 	text-decoration: none;
 	color: inherit;
 }
+p {
+	font-size: 1rem;
+}
 
 .logo-navbar {
     margin-right: -100px 
@@ -24,5 +27,8 @@ a:hover {
 }
 
 .links-footer {
-	font-size: 1.8rem;
+	font-size: 1.7rem;
+}
+.links-footer span{
+	font-size: 1.1rem;
 }
