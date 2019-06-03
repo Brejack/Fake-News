@@ -11,70 +11,162 @@
     <title>Fake News</title>
 </head>
 <body>
+
+   <!--==========================================================-->
+  <!--           Inicio De la NavBar y El Header                -->
+  <!--==========================================================-->
+
   <header class="container-fluid ">
     <div class="row  pt-1 d-flex justify-content-between">
-      <div class="col-6 col-md-2 col-lg-2">
-        <img class="img-fluid" src="img/logoNF.png" alt=""  width="150px">
+      <div class="col-5 col-md-2 col-lg-2">
+        <img class="img-fluid logo-header" src="img/logoNF.png" alt="fakenews.png" width="150px">
       </div>
-      <div class="d-none d-sm-none d-md-block d-lg-none col-sm-4 clima-header">
-        <div id="TT_yhnwbxtxdQl9lcIK1fSzzDDDD8aK1nKlLY1YkZioqkD"></div>
+       <div class="d-none d-sm-none d-md-block d-lg-none col-sm-4 ">
+          <div id="TT_yhnwbxtxdQl9lcIK1fSzzDDDD8aK1nKlLY1YkZioqkD"></div>
       </div>
-      <div class="d-none d-sm-none d-md-none d-lg-block col-lg-4 clima-header">
+      <div class="d-none d-sm-none d-md-none d-lg-block col-lg-4 ">
         <div id="TT_yBnArhtxtQlalBFKMAzzDjDzz8nKTnKlLdEd1sy5KEj">San Miguel de Tucuman</div>
         <script type="text/javascript" src="https://www.tutiempo.net/s-widget/l_yBnArhtxtQlalBFKMAzzDjDzz8nKTnKlLdEd1sy5KEj"></script>
       </div>
-      <div class="d-block d-md-none d-lg-none col-4 clima-header">       
-        <div id="TT_JhtwbxYhta1B198UMfqjzDjjD8aU18UlrtEY1Zy5KED">El tiempo - Tutiempo.net</div>
-        <script type="text/javascript" src="https://www.tutiempo.net/s-widget/l_JhtwbxYhta1B198UMfqjzDjjD8aU18UlrtEY1Zy5KED"></script>
+      <div class="d-block d-md-none d-lg-none col clima-header">      
+        <div id="TT_JhmwLhYxtQl9lcGK1fVjjzzDj9uKBnK">El tiempo - Tutiempo.net</div>
+        <script type="text/javascript" src="https://www.tutiempo.net/s-widget/l_JhmwLhYxtQl9lcGK1fVjjzzDj9uKBnK"></script>
       </div>
-         
-
       <div class="d-none d-md-block flex-nowrap col-sm-4 col-lg-2 links">
-          <a href="#"> <i class="fab fa-instagram navbar-instagram"></i></a>
-          <a href="#"> <i class="fab fa-facebook-square navbar-facebook"></i></a>
-          <a href="#"> <i class="fab fa-twitter-square navbar-twitter"></i></a>
+        <a href="#"> <i class="fab fa-instagram navbar-instagram"></i></a>
+        <a href="#"> <i class="fab fa-facebook-square navbar-facebook"></i></a>
+        <a href="#"> <i class="fab fa-twitter-square navbar-twitter"></i></a>
       </div>
-      <div class="d-none d-md-flex col-2 flex-column">
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-         Login
+      <div>
+        <button type="button" class="col d-none d-md-block btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+          <a class="login-button-navbar" href="">Login</a> 
         </button>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-         Registro
+        <button type="button" class="col d-none d-md-block btn btn-primary" data-toggle="modal" data-target="#modal-registro">
+          Registro
         </button>
-        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal fade" id="modal-registro" tabindex="-1" role="dialog" aria-labelledby="modal-registro-titulo" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalCenterTitle">Inicio de Sesion</h5>
+                <h5 class="modal-title" id="modal-registro-titulo"><img class="img-fluid" src="img/logoNF.png" alt=""  width="150px"></h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
               </div>
               <div class="modal-body">
-                <div class="form-group">
-                  <label for="">Nombre de usuario/E-mail</label>
-                  <input type="text" class="form-control" placeholder="Usuario">
-                </div>
-                <div class="form-group">
-                  <label for="">Contraseña</label>
-                  <input type="password" class="form-control" placeholder="Password">
-                </div>
-              </div>
+                <form action="">
+                  <div class="form-group">
+                    <label for="">Email</label>
+                    <input type="email" class="form-control" placeholder="Ej:Correo@correo.com">
+                  </div>
+                  <div class="form-group row">
+                    <div class="col-12 col-md-6">
+                      <label for="">Nombre</label>
+                      <input type="text" class="form-control" placeholder="Nombre">
+                    </div>
+                    <div class="col-12 col-md-6">
+                      <label for="">Apellido</label>
+                      <input type="text" class="form-control" placeholder="Apellido">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="">Nombre de Usuario</label>
+                    <input type="text" class="form-control" placeholder="Usuario">
+                  </div>
+                  <div class="form-group">
+                    <label for="">Contraseña</label>
+                    <input type="password" class="form-control" placeholder="Password">
+                  </div>
+                  <div class="form-group">
+                    <label for="">Confirmar contraseña</label>
+                    <input type="password" class="form-control">
+                  </div>
+                  <div class="row form-group">
+                    <div class="col-12 col-md-5">
+                      <label for="Date">Fecha de Nacimiento</label>
+                      <input type="date" class="form-control" >
+                    </div>
+                    <div class="col-12 col-md-5">
+                      <label for="country">Pais</label>
+                      <select name="country" id="country" class="form-control">
+                        <option value="pais1">Argentina</option>
+                        <option value="pais2">Australia</option>
+                        <option value="pais3">España</option>
+                        <option value="pais4">Estados Unidos</option>
+                      </select>
+                    </div>
+                  </div>
+                  <label for="">Sexo</label>
+                  <div>
+                    <div class="form-check form-check-inline ">
+                      <input class="form-check-input" type="radio" name="sexo" id="inlineRadio1" value="option1">
+                      <label class="form-check-label" for="inlineRadio1">Hombre</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="sexo" id="inlineRadio2" value="option2">
+                      <label class="form-check-label" for="inlineRadio2">Mujer</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="sexo" id="inlineRadio3" value="option3">
+                      <label class="form-check-label" for="inlineRadio3">Otro</label>
+                    </div>
+                  </div>
+                  <div class="form-check form-check mt-2">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                    <label class="form-check-label" for="inlineCheckbox1">Acepto Terminos y condiciones</label>
+                  </div>
+                </form>
+              </div>            
               <div class="modal-footer">
-                <button type="submit" class="btn btn-secondary" data-dismiss="modal">Iniciar</button>
-                <button type="button" class="btn btn-outline-primary"><a class="button-modal-regist" href="http://www.google.com">Registrate</a></button>
+                <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#comprobar-registro">
+                    Registrarse
+                </button>
+                <div class="modal fade" id="comprobar-registro" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Confirmacion</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                          Compruebe su correo para verificar su cuenta.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal"><a class="button-confirm-regist" href="#">Ok</a></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button type="reset" class="btn btn-outline-secondary" data-dismiss="modal">Cancelar</button>
               </div>
+            </div>
           </div>
+        </div>
+      </div>
+      <div class="d-md-none d-block navbar navbar-expand-md navbar-light mt-2">
+        <button class="col-12 navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
       </div>
     </div>
   </header>
-  <nav class="container-fluid navbar navbar-expand-md navbar-light">      
-    <button class="col-12 navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>   
+  <nav class="container-fluid navbar navbar-expand-md navbar-light">
     <div class="row flex-column-reverse collapse navbar-collapse " id="navbarSupportedContent">
       <div class="col-12">
+        <div class="flex-column col-4">
+          <button type="button" class="col d-flex d-md-none btn btn-primary" data-toggle="modal" data-target="#modal-registro">
+            Registro
+          </button>
+          <button type="button" class="col d-flex d-md-none btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+            <a class="login-button-navbar" href="">Login</a> 
+          </button>
+        </div>
         <div class="row ">
+          <form class="d-flex d-md-none  col-12 form-inline my-2 justify-content-lg-end ">
+            <input class="search-mobile" type="search" name="nombre" placeholder="Buscar">
+          </form>
           <ul class="col-6 navbar-nav mr-auto justify-content-around">
             <li class="nav-item active">
               <a class="nav-link" href="#">Home</a>
@@ -97,17 +189,17 @@
             <li class="nav-item">
               <a class="nav-link" href="#" >Contacto</a>
             </li>
+            <a href="" class="d-flex d-md-none col-1 info-header-navbar"> <i class=" fas fa-info"></i></a>
           </ul>
-          <form class="col-lg-6 col-12 form-inline my-2 my-lg-0 justify-content-lg-end">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
-          </form>
+            <form class="d-none d-md-flex col-md-6 col-12 form-inline my-2 my-lg-0 justify-content-lg-end ">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+              <a href="" class="col-1 info-header-navbar"> <i class=" fas fa-info"></i></a>
+            </form>
         </div>
-      </div>              
+      </div>            
     </div>
   </nav>
-
- 
 
 
   <main class="container">
@@ -1149,29 +1241,23 @@
                         </div>
                       </div>
                     </div>
-
                 </div>
-
                 <div class="carousel-item">
                   
                   
                 </div>
-
                 <div class="carousel-item">
                   
                   
                 </div>
-
                 <div class="carousel-item">
                   
                   
                 </div>
-
                 <div class="carousel-item">
                   
                   
                 </div>
-
               </div>
         </div> 
         <div class="container-fluid w-100 d-flex justify-content-center">
@@ -1191,7 +1277,7 @@
 
   <footer>
     <div class="container-fluid">
-      <div class="row flex-column align-items-center">
+      <div class="row flex-column flex-md-row align-items-center justify-content-around">
         <div class="my-3"> <!-- Logo en footer -->
           <img class="img-fluid" src="img/logoNF.png" alt=""  width="150px">
         </div>
@@ -1228,3 +1314,4 @@
   <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
+
