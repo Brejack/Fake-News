@@ -11,14 +11,29 @@ p {
 }
 
 
-/*Seccion Navbar y Header*/
+/* ===============ESTILOS DEL HEADER Y NAVBAR======================== */
 
-.logo-navbar {
-    margin-right: -100px 
+.logo-header {
+	max-width:125px;
+} 
+
+.login-button-navbar {
+    color: white;
+    text-decoration: none;
+}
+
+.login-button-navbar:hover {
+    text-decoration: none;
+    color: #fff;
+} 
+
+.clima-header {
+    margin: 0 -25px;
 } 
 
 .navbar-instagram , .navbar-facebook , .navbar-twitter {
     font-size: 3rem;
+    color: #000;
 }
 
 .button-modal-regist {
@@ -29,8 +44,71 @@ p {
     color: #fff;
 }
 
+.info-header-navbar {
+    font-size: 30px;
+    
+}
 
-/*Seccion Footer*/
+.button-confirm-regist {
+    color: #fff;
+    text-decoration: none;
+}
+
+.button-confirm-regist:hover {
+    text-decoration: none;
+    color: #FFF;
+}
+
+ .search-mobile {
+    width: 45px; /*ancho por defecto*/
+    background: #ededed url('../img/search-icon.png') no-repeat 9px center; /*icono lupa*/
+    padding: 9px 10px 9px 32px;
+    border-radius: 15em;
+    -webkit-transition: all .5s; /* transición de .5seg a todos los elementos para chrome*/
+    -moz-transition: all .5s; /* transición de .5seg a todos los elementos para mozilla*/
+    -o-transition: all .5s; /* transición de .5seg a todos los elementos para ophera*/
+    transition: all .5s; /* transición de .5seg a todos los elementos*/
+    outline: none; /* ocultar el fucos automático de los input */
+}
+ .search-mobile:focus {
+    width: 130px; /*tamaño del boton buscar al hacer click*/
+    padding-left: 32px; /*espacio entre el icono lupa y el placeholder*/
+    color: #000;
+    background-color: #FFF;
+}
+
+
+
+/* ================FIN DE ESTILOS DEL HEADER Y NAVBAR======================== */
+
+
+/* ======================Usuario Y Perfil de Usuario============================ */
+
+section {
+    margin-top: 30px;
+}
+
+.personal-data {
+    background: #f8f7f7d3;
+}
+
+.personal-data-text p {
+    color: red;
+    font-size: 1em;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+    border-bottom-right-radius: 0%;
+    padding: 10px;
+    margin-left: 3px;
+}
+
+
+
+
+
+
+/*=============================Seccion Footer=========================*/
 
 .links-footer {
 	font-size: 1.7rem;
