@@ -45,7 +45,8 @@ p {
 }
 
 .info-header-navbar {
-    font-size: 1.4rem;    
+    font-size: 1.4rem;
+    cursor:help;
 }
 
 .button-confirm-regist {
