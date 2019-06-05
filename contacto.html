@@ -184,7 +184,7 @@
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" >Contacto</a>
+              <a class="nav-link" href="contacto.html" >Contacto</a>
             </li>
             <a href="frequent-ask.html" class="d-flex d-md-none col info-header-navbar"> <i class=" fas fa-info"></i></a>
           </ul>
@@ -207,67 +207,71 @@
 
   <main>
     <div class="container-fluid ml-5">
-      <h2>Mensajes y Consultas</h2>
-      <p>También te sugerimos visitar <a href="frequent-ask.html">Preguntas Frecuentes</a></p>
-      <form>
-        <div class="form-row align-items-center">
-          <div class="col-auto">
-            <label class="sr-only" for="inlineFormInputGroup">Username</label>
-            <div class="input-group mb-2">
-              <div class="input-group-prepend">
-                <div class="input-group-text">Motivo del contacto</div>
+      <div>
+        <h2>Mensajes y Consultas</h2>
+        <p>También te sugerimos visitar <a href="frequent-ask.html">Preguntas Frecuentes</a></p>
+      </div>     
+      <div class="my-5">
+        <form>
+          <div class="form-row align-items-center">
+            <div class="col-auto">
+              <label class="sr-only" for="inlineFormInputGroup">Username</label>
+              <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">Motivo del contacto</div>
+                </div>
+                <select type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+                  <option selected>Comunicarme con la redacción</option>
+                  <option>Reportar un problema</option>
+                  <option>Carta al director</option>
+                  <option>Sugerencias</option>
+                </select>
               </div>
-              <select type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
-                <option selected>Comunicarme con la redacción</option>
-                <option>Reportar un problema</option>
-                <option>Carta al director</option>
-                <option>Sugerencias</option>
-              </select>
             </div>
           </div>
-        </div>
-        <div class="form-row align-items-center">
-          <div class="col-auto">
-            <label class="sr-only" for="inlineFormInputGroup">Username</label>
-            <div class="input-group mb-2">
-              <div class="input-group-prepend">
-                <div class="input-group-text">Nombre y Apellido</div>
+          <div class="form-row align-items-center">
+            <div class="col-auto">
+              <label class="sr-only" for="inlineFormInputGroup">Username</label>
+              <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">Nombre y Apellido</div>
+                </div>
+                <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Señor Equis">
               </div>
-              <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Señor Equis">
             </div>
           </div>
-        </div>
-        <div class="form-row align-items-center">
-          <div class="col-auto">
-            <label class="sr-only" for="inlineFormInputGroup">Username</label>
-            <div class="input-group mb-2">
-              <div class="input-group-prepend">
-                <div class="input-group-text">Email</div>
+          <div class="form-row align-items-center">
+            <div class="col-auto">
+              <label class="sr-only" for="inlineFormInputGroup">Username</label>
+              <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">Email</div>
+                </div>
+                <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="algo@correo.com">
               </div>
-              <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="algo@correo.com">
             </div>
           </div>
-        </div>
-        <div class="form-row align-items-center">
-          <div class="col-auto">
-            <label class="sr-only" for="inlineFormInputGroup">Username</label>
-            <div class="input-group mb-2">
-              <div class="input-group-prepend">
-                <div class="input-group-text">Teléfono</div>
+          <div class="form-row align-items-center">
+            <div class="col-auto">
+              <label class="sr-only" for="inlineFormInputGroup">Username</label>
+              <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">Teléfono</div>
+                </div>
+                <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Área">
+                <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Número">
               </div>
-              <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Área">
-              <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Número">
             </div>
           </div>
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlTextarea1">Example textarea</label>
-          <textarea class="form-control contacto-texarea" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-        <div class="col-auto">
-          <button type="submit" class="btn btn-primary mb-2">Submit</button>
-        </div>
-      </form>      
+          <div class="form-group mt-2">
+            <label for="exampleFormControlTextarea1">Mensaje</label>
+            <textarea class="form-control contacto-texarea" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="">
+            <button type="submit" class="btn btn-primary mb-2">Enviar</button>
+          </div>
+        </form>     
+      </div> 
     </div>
   </main>
 
@@ -313,7 +317,7 @@
               </p>          
             </div>
           </div>
-          <a href="" class="d-flex links-footer">
+          <a href="contacto.html" class="d-flex links-footer">
             <i class="fas fa-envelope-square"></i>
             <span class="ml-3">Contacto</span> <!-- Correo -->
           </a>
