@@ -118,6 +118,13 @@ section {
     height: 300px;
 }
 
+.likes-dislikes {
+    font-size: 1rem;
+    padding: 0%;
+    text-align: end;
+    margin-bottom: 0%
+}
+
 
 
 /* ======================LOGIN============================ */
