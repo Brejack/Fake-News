@@ -164,9 +164,6 @@ section {
 }
 
 
-
-
-
 /*=============================Seccion Footer=========================*/
 
 .links-footer {
@@ -175,3 +172,11 @@ section {
 .links-footer span{
 	font-size: 1.1rem;
 }
+
+
+/*===========================Seccion Contacto=========================*/
+
+.contacto-texarea {
+	max-width: 500px;
+}
+
