@@ -187,3 +187,33 @@ section {
 	max-width: 500px;
 }
 
+/* ========================== Magin Fixes ===============================*/
+
+
+.regist-margin-fix {
+    text-align: center;
+    width: inherit;
+    margin-bottom: auto;
+}
+
+@media (max-width: 767px) {
+.ul-navbar {
+    text-align: end;
+    margin-left:30%;
+}
+.img-navbar {
+    margin-left: auto;
+}
+.img-navbar-profile {
+    margin-left: auto;
+}
+.serch-margin-fix {
+    margin-left:auto;
+}
+.info-margin-fix {
+    margin-left: auto;
+}
+.button-margin-fix {
+    margin-left: auto;
+}
+}

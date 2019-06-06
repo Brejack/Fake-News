@@ -15,7 +15,7 @@
   <!--           Inicio De la NavBar y El Header                -->
   <!--==========================================================-->
 
- <header class="container-fluid ">
+  <header class="container-fluid ">
     <div class="row  pt-1 d-flex justify-content-between">
       <div class="col-5 col-md-2 col-lg-2">
         <a href="index.html"><img class="img-fluid logo-header" src="img/logoNF.png" alt="fakenews.png" width="150px"></a> 
@@ -152,24 +152,24 @@
   <nav class="container-fluid navbar navbar-expand-md navbar-light">
     <div class="row flex-column-reverse collapse navbar-collapse " id="navbarSupportedContent">
       <div class="col-12">
-        <div class="flex-column col-4">
+        <div class="flex-column col-4 button-margin-fix">
           <button type="button" class="col d-flex d-md-none btn btn-primary" data-toggle="modal" data-target="#modal-registro">
-            Registro
+            <p class="regist-margin-fix">Registro</p> 
           </button>
-          <button type="button" class="col d-flex d-md-none btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+          <button type="button" class="col d-flex d-md-none btn btn-primary mt-1" data-toggle="modal" data-target="#exampleModalCenter">
             <a class="login-button-navbar" href="login.html">Login</a> 
           </button>
         </div>
         <div class="row ">
           <form class="d-flex d-md-none  col-12 form-inline my-2 justify-content-lg-end ">
-            <input class="search-mobile" type="search" name="nombre" placeholder="Buscar">
+            <input class="search-mobile serch-margin-fix" type="search" name="nombre" placeholder="Buscar">
           </form>
-          <ul class="col-8 navbar-nav mr-auto justify-content-around">
+          <ul class="col-8 navbar-nav mr-auto justify-content-around ul-navbar">
             <li class="nav-item active">
               <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Ultimas Noticias</a>
+              <a class="nav-link" href="ultimas.html">Ultimas Noticias</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -186,7 +186,7 @@
             <li class="nav-item">
               <a class="nav-link" href="contacto.html" >Contacto</a>
             </li>
-            <a href="frequent-ask.html" class="d-flex d-md-none col info-header-navbar"> <i class=" fas fa-info"></i></a>
+            <a href="frequent-ask.html" class="d-flex d-md-none col info-header-navbar"> <i class=" fas fa-info info-margin-fix"></i></a>
           </ul>
             <form class="d-none d-md-flex form-inline justify-content-end ">
               <input class="search-mobile" type="search" name="nombre" placeholder="Buscar">
@@ -196,6 +196,7 @@
       </div>            
     </div>
   </nav>
+
 
 <!--==========================================================-->
 <!--            Fin de La NavBar   Y Header                     -->
