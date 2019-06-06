@@ -20,6 +20,7 @@ p {
 .login-button-navbar {
     color: white;
     text-decoration: none;
+    margin: auto;
 }
 
 .login-button-navbar:hover {
