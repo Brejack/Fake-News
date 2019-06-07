@@ -218,9 +218,9 @@ section {
 .button-margin-fix {
     margin-left: auto;
     padding: unset;
+    max-width: 88px;
 }
 }
-
 
 /*============================ Ultimas Noticias=====================*/
 
