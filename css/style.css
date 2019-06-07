@@ -220,3 +220,20 @@ section {
     padding: unset;
 }
 }
+
+
+/*============================ Ultimas Noticias=====================*/
+
+
+.news-cards-title {
+	margin: 0;
+	font-size: 1.4rem;
+}
+
+.news-cards-autor {
+	font-size: 0.8rem;
+}
+
+.news-cards-text {
+	font-size: 0.9rem;
+}
