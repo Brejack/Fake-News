@@ -237,3 +237,12 @@ section {
 .news-cards-text {
 	font-size: 0.9rem;
 }
+
+
+/* ==============================Teatro==================================== */
+
+
+.button-share-coment:hover {
+    background: #FFF;
+    color: #000;
+    }
