@@ -265,9 +265,23 @@ section {
     color: #000;
     }
 
+
+
+    .img-politica {
+        height: 200px;
+        width: 200px;
+        background: lightblue;
+    }
+
+    .text-img {
+      text-align: end;
+      position: relative;
+    }
+
+
      /* =============================POLITICA============================== */
 
-    
+   
 .contenedor-noticias {
 
 
@@ -280,7 +294,7 @@ section {
  .contenedor-noticias img{
  
      width: 100%;
-     height: 100%
+     height: 100%;
      
  }
  
@@ -344,5 +358,88 @@ section {
      background: #FFF;
      color: #000;
  } 
+ 
+ 
+ 
+ 
+ @media (min-width: 0px) and (max-width: 576px)  { 
+ 
+  
+  .text-news-1 a{
+ 
+      font-size: 15px;
+  }
+ 
+ 
+  .text-news-1{
+ 
+      height: 80px;
+  }
+ 
+ 
+ 
+ .btn-news {
+     
+    padding: .150rem 0.1rem;
+     font-size: 0.6rem;
+     width: 5.5rem;
+    
+ }
+  }
+ 
+ 
+ @media (min-width: 576px) and (max-width: 768px)  { 
+ 
+ .btn-news {
+     
+    padding: .150rem 0.1rem;
+     font-size: 0.8rem;
+     width: 6.5rem;
+    
+  }
+   }
+ 
+ 
+ 
+  @media (min-width: 768px) and (max-width: 992px)  { 
+ 
+ 
+ .text-news-1{
+ 
+      height: 90px;
+  }
+ 
+ 
+ 
+ 
+ .btn-news {
+     
+      padding: .150rem 0.1rem;
+     font-size: 0.6rem;
+     width: 5rem;
+    
+ }
+  }
+ 
+ 
+ 
+ @media (min-width: 992px) {
+ 
+ .text-news-1{
+ 
+      height: 90px;
+  }
+ 
+ 
+ .btn-news {
+     
+     padding: .150rem 0.1rem;
+     font-size: 0.8rem;
+     width: 6.5rem;
+    
+ }
+  }
+ 
+ 
  
  
