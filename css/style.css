@@ -247,6 +247,15 @@ section {
 	font-size: 0.9rem;
 }
 
+.news-drop {
+	display: none;	
+}
+
+
+.news-card:hover .news-drop {
+	display: flex;
+}
+
 
 /* ==============================Teatro==================================== */
 
