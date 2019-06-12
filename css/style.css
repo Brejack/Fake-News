@@ -277,12 +277,15 @@ section {
 }
 
 .news-drop {
-	display: none;	
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
 }
 
-
 .news-card:hover .news-drop {
-	display: flex;
+    height: auto;
+    padding: 1rem;
+    transition: 0.5s;
 }
 
 
