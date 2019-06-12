@@ -92,6 +92,18 @@ p {
 
 /* ================FIN DE ESTILOS DEL HEADER Y NAVBAR======================== */
 
+.intro {
+	margin-top: 20px;
+	height: 30px;
+	width: 60%;
+	justify-content: center;
+}
+.carousel{
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
 
 /* ======================Usuario Y Perfil de Usuario============================ */
 
