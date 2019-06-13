@@ -37,7 +37,7 @@
       </div>
       <div class="mr-2">
         <div class="d-none d-md-block">
-          <a class="" data-toggle="modal" data-target="#exampleModalCenter" href="login.html">Login</a> <i> / </i> 
+          <a class="" href="login.html">Login</a> <i> / </i> 
           <a href="" class="" data-toggle="modal" data-target="#modal-registro">Registro</a>
         </div>        
         <div class="modal fade" id="modal-registro" tabindex="-1" role="dialog" aria-labelledby="modal-registro-titulo" aria-hidden="true">
@@ -152,12 +152,15 @@
     <div class="row flex-column-reverse collapse navbar-collapse " id="navbarSupportedContent">
       <div class="col-12">
         <div class="button-margin-fix">
-          <button type="button" class="col d-flex d-md-none btn btn-primary" data-toggle="modal" data-target="#modal-registro">
-            <p class="regist-margin-fix">Registro</p> 
-          </button>
-          <button type="button" class="col d-flex d-md-none btn btn-primary mt-1" data-toggle="modal" data-target="#exampleModalCenter">
-            <a class="login-button-navbar" href="login.html">Login</a> 
-          </button>
+          <div class="d-block d-md-none text-right">
+            <div class="m-2">
+              <a href="login.html">Login</a>
+            </div>            
+            <div class="m-2">
+              <a href="" data-toggle="modal" data-target="#modal-registro">Registro</a>
+            </div>
+            
+          </div> 
         </div>
         <div class="row ">
           <form class="d-flex d-md-none  col-12 form-inline my-2 justify-content-lg-end ">
