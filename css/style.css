@@ -37,8 +37,11 @@ p {
 
 .logo-header {
 	max-width:125px;
-} 
+}
 
+.logo-perfil {
+    max-width: 87px;
+}
 
 .font-color-overlap {
     color: white;
