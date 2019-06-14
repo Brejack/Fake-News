@@ -26,10 +26,16 @@ p {
     color: white;
 }
 
-.btn-primary{
-    background-color: #d40000;
-    border-color: #000000;
+.btn-fake{
+    background-color: #e2dddd;
+    border-color: #c1bdbd;
+    color: #9e2424;
+}
 
+.btn-fake:hover{
+    background: #b1b1b1;
+    color: #fff;
+    border-color: #9e242459;
 }
 
 
