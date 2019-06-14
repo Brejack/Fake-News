@@ -38,6 +38,10 @@ p {
     border-color: #9e242459;
 }
 
+.badge-fake {
+    background-color: #9e2424bf;
+    color: #ffffffe3;
+}
 
 /* ===============ESTILOS DEL HEADER Y NAVBAR======================== */
 
