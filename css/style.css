@@ -145,6 +145,7 @@ p {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    margin-top: 13%;
 }
 
 .slider-hover-style:hover {
@@ -153,13 +154,13 @@ p {
 }
 
 .titulo-slider   {
-    background-color: #ababab7a;
+    background-color: #0000007a;
     padding: 0.5rem;
     text-align: left;
 }
 
 .titulo-responsive {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 @media (min-width: 992px) {
     .titulo-responsive {
