@@ -27,13 +27,13 @@ p {
 }
 
 .btn-fake{
-    background-color: #e2dddd;
+    background-color: #e2ddddb5;
     border-color: #c1bdbd;
     color: #9e2424;
 }
 
 .btn-fake:hover{
-    background: #b1b1b1;
+    background: #b1b1b1f0;
     color: #fff;
     border-color: #9e242459;
 }
@@ -41,6 +41,7 @@ p {
 .badge-fake {
     background-color: #9e2424bf;
     color: #ffffffe3;
+    border-radius: .25rem;
 }
 
 /* ===============ESTILOS DEL HEADER Y NAVBAR======================== */
@@ -622,12 +623,17 @@ section {
     border: 1px solid #9e2424;
     }
     
-    .shape-social {
+.shape-social {
         clip-path: circle(50% at 50% 50%);
-    }
+}
     
-    .not-teatro-text:first-letter { 
+.not-teatro-text:first-letter { 
         font-size: 200%;
         font-weight: bolder;
         color: #9e2424;
-      }
+}
+
+.btns-fixed {
+    z-index: 100;
+    font-size: 1.5rem;
+}
