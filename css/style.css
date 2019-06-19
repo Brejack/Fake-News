@@ -276,8 +276,8 @@ section {
 
 /*===========================Seccion Contacto=========================*/
 
-.contacto-texarea {
-	max-width: 500px;
+.faq-link {
+    color: #3f3fb5;
 }
 
 /* ========================== Magin Fixes ===============================*/
