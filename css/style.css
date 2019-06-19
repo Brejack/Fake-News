@@ -102,6 +102,7 @@ p {
 }
 
  .search-mobile {
+    cursor: context-menu;
     width: 45px; /*ancho por defecto*/
     background: #ededed url('../img/search-icon.png') no-repeat 9px center; /*icono lupa*/
     padding: 9px 10px 9px 32px;
