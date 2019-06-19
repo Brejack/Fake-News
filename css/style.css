@@ -160,6 +160,10 @@ p {
     text-align: left;
 }
 
+.titulo-politica   {
+    background-color: #0000007a;
+}
+
 .titulo-responsive {
     font-size: 1rem;
 }
