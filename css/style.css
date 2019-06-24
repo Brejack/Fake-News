@@ -42,6 +42,7 @@ p {
     background-color: #9e2424bf;
     color: #ffffffe3;
     border-radius: .25rem;
+    padding: 11px 20px;
 }
 
 /* ===============ESTILOS DEL HEADER Y NAVBAR======================== */
@@ -102,6 +103,7 @@ p {
 }
 
  .search-mobile {
+    cursor: context-menu;
     width: 45px; /*ancho por defecto*/
     background: #ededed url('../img/search-icon.png') no-repeat 9px center; /*icono lupa*/
     padding: 9px 10px 9px 32px;
@@ -160,6 +162,10 @@ p {
     text-align: left;
 }
 
+.titulo-politica   {
+    background-color: #0000007a;
+}
+
 .titulo-responsive {
     font-size: 1rem;
 }
@@ -169,6 +175,90 @@ p {
     }
 }
 
+
+
+.fakenews-style {
+    margin-top: 100px;
+    margin-bottom: 500px;
+    position: relative;
+    background: rgba(166, 168, 167, 0.116);
+    border-radius: 5px;
+}
+
+.animation-fakenews {
+display: flex;
+height: 7vw;
+font-size: 7vw;
+color: #9e2424;
+line-height: 7vw;
+justify-items: center;
+overflow: hidden; 
+text-align: center;
+}
+
+.lista-animated {
+    list-style: none;
+    padding-left: 10px;
+    animation: text-fake 8s infinite;
+}
+
+@keyframes text-fake {
+    0% { margin-top: 0%; }
+    15% { margin-top: 0%; }
+
+    20% { margin-top: -7vw;}
+    35% { margin-top: -7vw;}
+
+    40% {margin-top: -14vw;}
+    55% {margin-top: -14vw;}
+
+    60% {margin-top: -21vw;}
+    75% {margin-top: -21vw;}
+
+    80% {margin-top: -28vw;}
+    95% {margin-top: -28vw;}
+
+    100%{margin-top: 0%;}
+}
+
+.animation-fakenews p, .lista-animated {
+    margin: 0%;
+}
+.animation-fakenews p {
+    font-size: 7vw;
+}
+
+.news-section-index {
+    margin-top: -400px;
+}
+
+.news-section-index-container {
+    border: 1px solid #000;
+}
+
+.btn-news-section-index {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: inherit;
+}
+
+.pad-img-news-section-index {
+    padding: 0%;
+}
+
+
+.news-section-background {
+    background: rgba(166, 168, 167, 0.253);
+}
+
+.news-section-titles {
+    color: #9e2424;
+}
+
+.text-end {
+    text-align: end;
+}
 
 /* ======================Usuario Y Perfil de Usuario============================ */
 
@@ -271,8 +361,8 @@ section {
 
 /*===========================Seccion Contacto=========================*/
 
-.contacto-texarea {
-	max-width: 500px;
+.faq-link {
+    color: #3f3fb5;
 }
 
 /* ========================== Magin Fixes ===============================*/
@@ -336,7 +426,17 @@ section {
     transition: 0.5s;
 }
 
+.ad-ultimas-fixed {
+ position: fixed;
+ float: left;
+ width: 15%;
+ height: 530px;
+ top: 18vh;
+}
 
+.margin-main-ultimas {
+    margin-bottom: 150px;
+}
 /* ==============================Teatro==================================== */
 
 
