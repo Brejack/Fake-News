@@ -446,8 +446,8 @@ section {
 .ad-ultimas-fixed {
  position: fixed;
  float: left;
- width: 15%;
- height: 530px;
+ /* width: 15%;
+ height: 530px; */
  top: 18vh;
 }
 
